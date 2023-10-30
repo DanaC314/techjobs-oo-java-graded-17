@@ -63,6 +63,7 @@ public class JobTest {
             char lastChar = test.toString().charAt(test.toString().length() - 1);
             assertEquals('\n', firstChar);
             assertEquals('\n', lastChar);
+
         }
 
         @Test
